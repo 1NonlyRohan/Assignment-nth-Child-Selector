@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-nth-Child-Selector</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body,
+        html {
+            font-size: 16px;
+            font-family: josefin sans;
+        }
+
+        .head {
+            font-weight: 900;
+            position: absolute;
+            top: 0px;
+            left: 500px;
+            padding: 20px 0px;
+            font-family: math;
+            font-size: 20px;
+        }
+
+        .table {
+            position: absolute;
+            top: 80px;
+            left: 250px;
+            padding: 5px;
+            width: 60%;
+            border: 1px solid;
+        }
+
+        .table th {
+            font-family: Cinzel;
+            border: 1px solid grey;
+            padding: 10px 50px;
+            background: white;
+            color: black;
+        }
+
+        .table tr td {
+            text-align: center;
+            padding: 10px 50px;
+            border: 1px solid grey;
+        }
+
+        .table tr:nth-child(odd) {
+            background-color: green;
+            color: white;
+        }
+
+        .foot {
+            position: absolute;
+            top: 750px;
+            left: 550px;
+            padding: 20px 0px;
+            font-family: math;
+            font-size: 20px;
+            font-weight: 900;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header class="head">
+        Assignment--nth-Child-Selector
+    </header>
+
+    <table class="table">
+        <thead>
+            <th>Student Id</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Sumit</td>
+                <td>Male</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Nisha</td>
+                <td>Female</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Tarun</td>
+                <td>Male</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Suraj</td>
+                <td>Male</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Harsh</td>
+                <td>Male</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Pooja</td>
+                <td>Female</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Dhiraj</td>
+                <td>Male</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Karan</td>
+                <td>Male</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Mohit</td>
+                <td>Male</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Rishab</td>
+                <td>Male</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Neha</td>
+                <td>Female</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Riya</td>
+                <td>Female</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Mannu</td>
+                <td>Male</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Birjesh</td>
+                <td>Male</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Sunaina</td>
+                <td>Female</td>
+                <td>23</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <footer class="foot">
+        &copy;2024-1Nonly Rohan Jaiswal.
+    </footer>
+
+</body>
+
+</html>
